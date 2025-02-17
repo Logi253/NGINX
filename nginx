@@ -16,7 +16,7 @@ server {
         try_files $uri $uri/ =404;
     }
 
-    # Optional: Add a location block for error pages
+    # Optional: Add a location block for error pages okok
     error_page 404 /404.html;
     location = /404.html {
         root /var/www/example.com/html;
